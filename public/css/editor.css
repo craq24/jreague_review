@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+img{
+max-width: 100%;
+}
+
+body.tiny_mce_class, .tiny_mce_class div, .tiny_mce_class dl, .tiny_mce_class dt,.tiny_mce_class dd,.tiny_mce_class ul,.tiny_mce_class ol,.tiny_mce_class li, .tiny_mce_class table,.tiny_mce_class th,.tiny_mce_class td,.tiny_mce_classfieldset,.tiny_mce_class pre,.tiny_mce_class form,.tiny_mce_class p,.tiny_mce_class blockquote{
+	margin: 0;
+	padding: 0.2em;
+}
+
+body.tiny_mce_class{
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.tiny_mce_class #wrapper{
+	width: 1100px;
+	text-align: left;
+	margin: 0 auto;
+	background-color: #F0F0F0;
+}
+
+.tiny_mce_class #header{
+	background-color: #FFFFFF;
+	background: url();
+}
+
+
+
+.tiny_mce_class #menu{
+    clear: both;
+	margin:10px 0 0 0;
+	width: 200px;
+    height: 100%;
+	background-color: #f0f0f0;
+    float: left;
+}
+
+.tiny_mce_class #main{
+	margin:10px 0 0 0;
+	width: 700px;
+    height: 100%;
+	background-color: #f0f0f0;
+    float: left;
+}
+
+.tiny_mce_class #menu2{
+	margin:10px 0 0 0;
+	width: 200px;
+    height: 100%;
+	background-color: #F0F0F0;
+    float: left;
+}
+
+
+.tiny_mce_class #footer{
+    clear: both;
+	width: 1100px;
+	background:#603;
+	color:#ffffff;
+    text-align: center;
+	margin: 0 auto;
+	padding: 20px 0 20px;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+/*
+.tiny_mce_class h2{
+	margin:0 auto 10px;
+	padding:10px;
+	width:90%;
+	border-top:3px solid #603;
+	border-bottom:3px solid #603;
+	background:#ffffff;
+	font-size:20px;
+	color:#C39;
+	line-height:150%;
+}
+*/
+.tiny_mce_class .content h2{
+	margin:0 auto 10px;
+	padding:10px;
+	width:96%;
+	border-top:3px solid #603;
+	border-bottom:3px solid #603;
+	background:#f0f0f0;
+	font-size:20px;
+	color:#C39;
+	line-height:150%;
+}
+
+.tiny_mce_class .content{
+	width:90%;
+	background:#ffffff;
+	border:1px solid #603;
+	margin:0 auto 10px;
+	padding:10px;
+}
+
+.tiny_mce_class .date{
+	margin:0 auto 10px;
+	width:90%;
+	text-align:right;
+}
+
+.tiny_mce_class .banner{
+	margin:0 auto 10px;
+	width:94%;
+}
+
+.tiny_mce_class .mbox{
+	border:1px solid #603;
+	background:#ffffff;
+	margin:0 0 10px 0;
+}
+
+.tiny_mce_class .mbox h3{
+	font-size:15px;
+	color:#FFF;
+	margin:0;
+	background:#603;
+	text-align:center;
+}
+
+.tiny_mce_class .mbox p{
+	margin:10px;
+	
+}
+
+.tiny_mce_class .mbox ul{
+	margin:10px;
+	
+}
+
+.tiny_mce_class .mbox ul li{
+	list-style:none;
+}
+
+.mbox ul li a,.mbox ul li a:visited{
+	color:#0066cc;
+}
+
+.tiny_mce_class dl{
+	margin:20px 0 20px 10px;
+}
+
+.tiny_mce_class dl dt{
+	margin:0 0 0 10px;
+	padding:5px 0 0 0;
+	border-top:1px dashed #cccccc;
+	margin:0 0 50px 10px;
+}
+
+.tiny_mce_class dl dd{
+	margin:0 0 50px 10px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.tiny_mce_class .nanashi{
+	font-weight:bold;
+	color:green;
+	padding-right:5px;
+}
+.tiny_mce_class .times{
+	font-size:12px;
+}
+
+.tiny_mce_class .red{
+	color:#ff0000;
+	font-color:#ff0000;
+}
+
+.tiny_mce_class .ress{
+	margin:0 0 50px 10px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.tiny_mce_class .blue{
+	color:#0066cc;
+	font-color:#0066cc;
+}
+
+.tiny_mce_class .bigs{
+	font-weight:bold;
+	font-size:24px;
+}
+
+.tiny_mce_class .ttl {
+	padding:5px;
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	border-top-color: rgb(170, 170, 170);
+	border-top-width:
+	1px; border-top-style: solid;
+	background-color: rgb(234, 234, 234);
+}
+
+.tiny_mce_class h1{
+	line-height:1.1em;
+}
+.p16p{
+	font-size:16px;
+}
+.p18p{
+	font-size:18px;
+}
+.p20p{
+	font-size:20px;
+}
+.p24p{
+	font-size:24px;
+}
+.p32p{
+	font-size:32px;
+}
+
+.bigs{
+	font-size:48px;
+}
+
+.plus_an {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-color: rgb(221, 221, 221);
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+.api_video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.api_video iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
